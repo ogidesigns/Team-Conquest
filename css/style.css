@@ -1,0 +1,5 @@
+body {font-family: 'Averia Serif Libre', cursive;}
+button {font-family: 'Lobster', cursive;}
+#hello {background-image: url('../images/landing/andreHero.jpg'); background-position: center -50em;}
+.darkBG {color: #d9cfcd;}
+.brightBG {color: #0c0c0e;}
