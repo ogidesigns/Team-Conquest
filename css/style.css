@@ -37,3 +37,11 @@ h1 {color: #ff5900;}
 	.button {font-size: 3em;}
 	#hello {background-position: center 10%;}
 }
+@media screen and (min-width: 1240px)  {
+	h2 {padding-left:  40%;}
+	#hello {background-position: center 25%;}
+}
+@media screen and (min-width: 2100px)  {
+	h2 {padding-left:  60%;}
+	#hello {background-position: center 25%;}
+}
