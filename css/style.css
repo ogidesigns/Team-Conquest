@@ -1,12 +1,18 @@
 body {font-family: 'Averia Serif Libre', cursive;}
 .btn {font-family: 'Lobster', cursive;}
-#hello {background-image: url('../images/landing/andreHero.jpg');}
+#hello {background-image: url('../images/landing/andreHero.jpg'); padding: 10% 1% 1% 1%;}
 .darkBG {color: #d9cfcd;}
 .brightBG {color: #0c0c0e;}
 .button {background-color: #ff5900; border: none; padding: 10px 30px; border-radius: 0px; margin-top: 1em;}
 h1 {color: #ff5900;}
 
 /***********-Media Queries**********************************/
+@media screen and (max-width:  349px) {
+	#hello {background-size: cover; text-align: right; background-position: top right; padding-top: 23%;}
+	h1 {font-size: 2em; padding-top: 30%;}
+	h2 {font-size: 1.25em;}
+	.button {font-size: 2em; width: 100%;}
+}
 @media screen and (min-width: 350px) and (max-width:  749px) {
 	#hello {background-size: cover; text-align: right; background-position: top right;}
 	h1 {font-size: 3em; padding-top: 30%;}
@@ -29,5 +35,5 @@ h1 {color: #ff5900;}
 	h1 {font-size: 5em; padding-top: 20%;}
 	h2 {padding-left:  1em;}
 	.button {font-size: 3em;}
-	#hello {padding: 2em; background-position: center 10%;}
+	#hello {background-position: center 10%;}
 }
