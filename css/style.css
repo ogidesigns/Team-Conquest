@@ -4,7 +4,7 @@ body {font-family: 'Averia Serif Libre', cursive;}
 .darkBG {color: #d9cfcd;}
 .brightBG {color: #0c0c0e;}
 .button {background-color: #ff5900; border: none; padding: 10px 30px; border-radius: 0px; margin-top: 1em;}
-h1 {color: #ff5900;}
+h1, .nav-link {color: #ff5900;}
 
 /***********-Media Queries**********************************/
 @media screen and (max-width:  349px) {
