@@ -1,6 +1,6 @@
 body {font-family: 'Averia Serif Libre', cursive;}
 .btn {font-family: 'Lobster', cursive;}
-#hello {background-image: url('../images/landing/andreHero.jpg'); padding: 10% 1% 1% 1%;}
+#hello {background-image: url('../images/landing/andreHero.jpg'); padding: 10% 1% 1% 1%; background-color: #333;}
 .darkBG {color: #d9cfcd;}
 .brightBG {color: #0c0c0e;}
 .button {background-color: #ff5900; border: none; padding: 10px 30px; border-radius: 0px; margin-top: 1em;}
